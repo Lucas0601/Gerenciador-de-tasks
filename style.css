@@ -1,0 +1,49 @@
+.checked {
+    text-decoration: line-through;
+
+}
+
+.row {
+    flex-direction: row;
+
+}
+
+.container {
+    max-width: 25%;
+    margin: auto;
+    border: 3px solid #000000;
+    padding: 30px;
+    border-radius: 10px;
+    height: auto;
+}
+
+.flex {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.center {
+    justify-content: center;
+
+}
+
+.dark-mode {    
+    background-color: black;
+    color: white;
+    border-color: white; 
+}
+
+body {
+    padding: 2%;
+    background-color: white;
+    color: black;
+    font-size: 2vw;
+}
+
+@media (max-width: 768px)   {
+    .container  {
+        max-width: 95%;
+        padding: 10px;
+    }
+}

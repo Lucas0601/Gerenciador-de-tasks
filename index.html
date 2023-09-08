@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Minhas tasks</title>
+</head>
+
+<body class="container">
+
+    <div class="flex">
+        <button onclick="myFunction()">Alterar tema</button>
+    </div>
+
+    <h1>Minhas Tasks</h1>
+
+    <form action="" name="form_main">
+        <div class="flex">
+            <label for="task"></label>
+            <input type="text" name="task" required id="task" placeholder="Adicionar nova task" /><br />
+            <button id="submit" type="button" required="required" onclick="add()">Adicionar</button>
+        </div>
+    </form>
+
+    <fieldset>
+        <legend>Tarefas:</legend>
+        <ul>
+            <li>Limpar casa</li>
+            <li>Outras</li>
+        </ul>
+    </fieldset>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
