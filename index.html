@@ -11,16 +11,16 @@
 <body class="container">
 
     <div class="flex">
-        <button onclick="myFunction()">Alterar tema</button>
+        <button onclick="alterarTema()">Alterar tema</button>
     </div>
 
     <h1>Minhas Tasks</h1>
 
-    <form action="" name="form_main">
+    <form onsubmit="return false" action="" name="form_main">
         <div class="flex">
             <label for="task"></label>
-            <input type="text" name="task" required id="task" placeholder="Adicionar nova task" /><br />
-            <button id="submit" type="button" required="required" onclick="add()">Adicionar</button>
+            <input type="text"name="task" required id="task" placeholder="Adicionar nova task" /><br />
+            <button id="submit" type="button" required="required" onclick="botaoaddTasks()">Adicionar</button>
         </div>
     </form>
 
